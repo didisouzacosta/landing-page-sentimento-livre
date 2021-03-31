@@ -17,7 +17,7 @@ class MyDocument extends Document {
         <Head>
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=G-BSDWW4LMHQ"
+            src="https://www.googletagmanager.com/gtag/js?id=G-7NMZB1N673"
           ></script>
           <script
             async
