@@ -1,18 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import SiteLayout from './components/site-layout'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Sentimento Livre</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import Home from './public/home'
 
-      <main>
-        <Image src="/images/sentimento-livre-logo.png" width={320} height={320} />
-      </main>
-    </div>
-  )
+const Index = () => {
+  return <SiteLayout>
+    <Home />
+  </SiteLayout>
 }
+
+export default Index
