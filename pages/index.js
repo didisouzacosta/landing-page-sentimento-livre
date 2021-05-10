@@ -1,11 +1,7 @@
-import SiteLayout from './components/site-layout'
-
-import Home from './public/home'
+import Home from './home'
 
 const Index = () => {
-  return <SiteLayout>
-    <Home />
-  </SiteLayout>
+  return <Home />
 }
 
 export default Index
