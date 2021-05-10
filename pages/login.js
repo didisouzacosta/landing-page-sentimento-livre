@@ -1,7 +1,5 @@
-var nome = "Adriano"
-
 const Login = () => {
-    return <div>{nome}</div>
+    return <h1>Login</h1>
 }
 
 export default Login;

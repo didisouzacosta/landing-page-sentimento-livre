@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../../styles/Header.module.css'
 
-const Header = () => {
+function Header() {
     return <>
         <Head>
             <title>Sentimento Livre</title>
@@ -13,7 +13,7 @@ const Header = () => {
                 <ul>
                     <li>
                         <Link href="/">
-                            <a>Logo</a>
+                            Página inicial
                         </Link>
                     </li>
                     <li>
