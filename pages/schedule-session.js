@@ -1,5 +1,7 @@
 const ScheduleSession = () => {
-    return <div>Agendar Sessão</div>
+    return <div>
+        <h1>Agendar Sessão</h1>
+    </div>
 }
 
 export default ScheduleSession;
