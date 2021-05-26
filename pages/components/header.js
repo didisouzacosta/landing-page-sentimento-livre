@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '../../styles/Header.module.css'
 
 function Header() {
@@ -11,7 +12,9 @@ function Header() {
         <header className={styles.container}>
             <div className={styles.content}>
                 <Link href="/">
-                    <a className={styles.menu_item}>Página inicial</a>
+                    <a className={styles.menu_item}>
+                        <Image src="/images/sentimento-livre-horizontal.png" width={192} height={61} />
+                    </a>
                 </Link>
                 <ul className={styles.menu}>
                     <li>
