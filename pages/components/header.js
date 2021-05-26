@@ -10,30 +10,33 @@ function Header() {
         </Head>
         <header className={styles.container}>
             <div className={styles.content}>
-                <ul>
+                <Link href="/">
+                    <a className={styles.menu_item}>Página inicial</a>
+                </Link>
+                <ul className={styles.menu}>
                     <li>
-                        <Link href="/">
-                            Página inicial
+                        <Link href="/schedule-session">
+                            <a className={styles.menu_item}>Agendar sessão</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/schedule-session">
-                            <a>Agendar sessão</a>
+                        <Link href="/objective">
+                            <a className={styles.menu_item}>Objetivo</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/who-support-us">
-                            <a>Quem nos apoia</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/sign-up">
-                            <a>Cadastro</a>
+                            <a className={styles.menu_item}>Quem nos apoia</a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/login">
                             <a>Login</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="/sign-up">
+                            <a className={styles.sign_up}>Cadastro</a>
                         </Link>
                     </li>
                 </ul>
